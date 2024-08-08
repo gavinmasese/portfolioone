@@ -1,10 +1,10 @@
-import React,{useState} from 'react'
-import Slider from "react-slick";
-import { RiStarFill } from "react-icons/ri";
-import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
-import Title from '../layouts/Title'
-import { testimonialOne,testimonialTwo, quote } from "../../assets";
+import { HiArrowLeft, HiArrowRight } from "react-icons/hi";
+import React, { useState } from 'react';
+import { quote, testimonialOne, testimonialTwo } from "../../assets";
 
+import { RiStarFill } from "react-icons/ri";
+import Slider from "react-slick";
+import Title from '../layouts/Title';
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -101,16 +101,13 @@ const Testimonial = () => {
           <div className="w-full">
             <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
               <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
-                <img
+                {/* <img
                   className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
                   src={testimonialOne}
                   alt="testimonialOne"
-                />
+                /> */}
                 <div className="w-full flex flex-col justify-end">
-                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
-                  </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                  <h3 className="text-2xl font-bold">Gavin Masese Ondari </h3>
                   <p className="text-base tracking-wide text-gray-500">
                     Operation Officer
                   </p>
@@ -122,8 +119,7 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
-                      </h3>
+Mobile app nutrition                      </h3>
                       <p className="text-base text-gray-400 mt-3">
                         via Upwork - Mar 4, 2015 - Aug 30, 2021 test
                       </p>

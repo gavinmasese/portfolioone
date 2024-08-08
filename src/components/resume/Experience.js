@@ -1,6 +1,6 @@
 import React from "react";
-import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
+import { motion } from "framer-motion";
 
 const Experience = () => {
   return (
@@ -16,12 +16,11 @@ const Experience = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
+            title="Gaming"
             result="USA"
             des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
           />
-          <ResumeCard
+          {/* <ResumeCard
             title="Web Developer & Trainer"
             subTitle="Apple Developer Team - (2012 - 2016)"
             result="MALAYSIA"
@@ -32,7 +31,7 @@ const Experience = () => {
             subTitle="Nike - (2020 - 2011)"
             result="Oman"
             des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
-          />
+          /> */}
         </div>
       </div>
       <div>

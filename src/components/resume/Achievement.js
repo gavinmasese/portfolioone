@@ -1,6 +1,6 @@
 import React from "react";
-import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
+import { motion } from "framer-motion";
 
 const Achievement = () => {
   return (
@@ -16,8 +16,8 @@ const Achievement = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="Attachee"
+            subTitle="Kenya Met Dept."
             result="Success"
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
           />
